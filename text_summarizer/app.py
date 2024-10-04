@@ -1,4 +1,5 @@
 import os
+import flask
 from flask import Flask, render_template, request, jsonify
 from summarizer import summarize_text
 
